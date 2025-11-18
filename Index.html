@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Einfacher Datei-Upload</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Mein einfacher Datei-Upload</h1>
+
+  <div class="box">
+    <p>Datei auswählen:</p>
+    <input type="file" id="fileInput">
+    <button onclick="uploadFile()">Hochladen</button>
+  </div>
+
+  <div class="box">
+    <h3>Hochgeladene Dateien</h3>
+    <div id="fileList"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
